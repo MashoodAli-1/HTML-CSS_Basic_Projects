@@ -1,0 +1,164 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Raleway:wght@100&display=swap');
+
+
+@font-face {
+    font-family: "Booter - Zero Zero";
+    src:url("Fonts/Booter - Zero Zero.woff") format("woff"),
+    url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* firstly  we set the margin of whole html document to  zero */
+*{
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
+
+/* selecting  html and body elements
+   to give a common style
+*/
+
+html, body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* selecting ul element inside the nav to  style
+it will only style the  ul element
+    not the nav element.
+*/
+.nav ul{
+    margin: 0;
+}
+
+/* selecting li element inside  the nav
+    to style
+    it will only style the  li element
+    not the nav element.
+*/
+.nav li{
+    display: inline;
+}
+
+.nav a{
+    padding: .5vh;
+    color: whitesmoke;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* hover property for a elements*/
+.nav a:hover{
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: .5px,solid rgba(255, 255, 255, .3);
+}
+
+.main-nav li{
+    padding: 0 5%;
+}
+
+
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Booter - Zero Zero";
+    font-weight: normal;
+    color: white;
+}
+
+.band-name-large{
+    font-size: 10vh;
+}
+
+
+.main-header{
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("Header Background.jpeg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+/* styling the section element */
+.content-section {
+    margin: 1em;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto; /* top bottom margin set  to 0 and left right set margin set to auto.left  right margins will automatically grow as we increase the  screen size */
+    padding: 0  1.5em; /* top bottom padding set  to 0 and left right set padding set to 1.5em. */
+}
+
+
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 5vh;
+}
+
+.band-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 0 15px;
+    border-radius: 50%;
+}
+
+.main-footer {
+    background-color: #56CCF2;
+    color: white;
+    padding: .25em 0;
+    
+    
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+    
+}
+
+.footer-nav li{
+    padding: 0 .5em;
+}
+
+.footer-nav img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+ 
+
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btn-header{
+    
+}
